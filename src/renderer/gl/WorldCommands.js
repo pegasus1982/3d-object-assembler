@@ -64,7 +64,7 @@ export class FocusCommand extends WorldCommand  {
 
         if(this._options.group) {
 
-          w.controls.focus(this._options.group.obj);
+          w.controls.focus(this._options.group.node);
 
         }
 
