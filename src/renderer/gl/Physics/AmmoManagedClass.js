@@ -21,9 +21,7 @@ export default class AmmoManagedClass {
             }
 
         }
-
         this._toDestroy = [];
-
     }
 
     // Overide this.
