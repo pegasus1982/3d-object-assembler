@@ -12,12 +12,10 @@ export default class AmmoManagedClass {
     destroyAll() {
 
         for(let i = 0; i < this._toDestroy.length; i++) {
-            
             if(this[this._toDestroy[i]]) {
                 
                 Ammo.destroy(this[this._toDestroy[i]]);
                 this[this._toDestroy[i]] = undefined;
-
             }
 
         }
